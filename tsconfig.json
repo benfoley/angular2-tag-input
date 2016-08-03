@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "outDir": "./dist"
+  },
+  "files": [
+    "./src/tag-input.component.ts",
+    "typings/main.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

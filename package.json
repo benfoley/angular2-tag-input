@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      "angular2-tag-input",
+      "/Users/bbb/Documents/Apps/bits"
+    ]
+  ],
+  "_from": "angular2-tag-input@latest",
+  "_id": "angular2-tag-input@0.1.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angular2-tag-input",
+  "_nodeVersion": "4.2.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/angular2-tag-input-0.1.5.tgz_1460042482153_0.5370005904696882"
+  },
+  "_npmUser": {
+    "email": "rosslavery@gmail.com",
+    "name": "rlavery"
+  },
+  "_npmVersion": "3.8.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "angular2-tag-input",
+    "raw": "angular2-tag-input",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular2-tag-input/-/angular2-tag-input-0.1.5.tgz",
+  "_shasum": "befdfa6b288ab61731058e1a28b3211089eaf367",
+  "_shrinkwrap": null,
+  "_spec": "angular2-tag-input",
+  "_where": "/Users/bbb/Documents/Apps/bits",
+  "author": {
+    "name": "TEAM COOL"
+  },
+  "dependencies": {},
+  "description": "Tag input component for Angular 2",
+  "devDependencies": {
+    "angular2": "^2.0.0-beta.12",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.35.0",
+    "es7-reflect-metadata": "^1.6.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "typescript": "~1.8.7",
+    "webpack": "^1.12.14",
+    "zone.js": "^0.6.6"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "befdfa6b288ab61731058e1a28b3211089eaf367",
+    "tarball": "https://registry.npmjs.org/angular2-tag-input/-/angular2-tag-input-0.1.5.tgz"
+  },
+  "gitHead": "ae250dd4927124f3777179be431903ae352a9bd9",
+  "keywords": [
+    "angular2",
+    "tag input",
+    "taginput",
+    "tags",
+    "chips",
+    "chips input"
+  ],
+  "license": "ISC",
+  "main": "dist/tag-input.component.js",
+  "maintainers": [
+    {
+      "email": "rosslavery@gmail.com",
+      "name": "rlavery"
+    }
+  ],
+  "name": "angular2-tag-input",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "typings": "dist/tag-input.component.d.ts",
+  "version": "0.1.5"
+}
