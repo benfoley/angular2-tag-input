@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('angular2/core');
+var core_1 = require('@angular/core');
 var TagInputItemComponent = (function () {
     function TagInputItemComponent() {
         this.tagRemoved = new core_1.EventEmitter();
@@ -30,7 +30,7 @@ var TagInputItemComponent = (function () {
     ], TagInputItemComponent.prototype, "index", void 0);
     __decorate([
         core_1.Output(), 
-        __metadata('design:type', core_1.EventEmitter)
+        __metadata('design:type', (typeof (_a = typeof core_1.EventEmitter !== 'undefined' && core_1.EventEmitter) === 'function' && _a) || Object)
     ], TagInputItemComponent.prototype, "tagRemoved", void 0);
     TagInputItemComponent = __decorate([
         core_1.Component({
@@ -44,5 +44,6 @@ var TagInputItemComponent = (function () {
         __metadata('design:paramtypes', [])
     ], TagInputItemComponent);
     return TagInputItemComponent;
+    var _a;
 }());
 exports.TagInputItemComponent = TagInputItemComponent;

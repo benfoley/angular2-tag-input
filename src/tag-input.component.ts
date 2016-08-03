@@ -1,6 +1,6 @@
-import {Component, HostBinding, Input} from 'angular2/core';
-import {NgControl} from 'angular2/common';
-import {isBlank} from 'angular2/src/facade/lang';
+import {Component, HostBinding, Input} from '@angular/core';
+import {NgControl} from '@angular/common';
+import {isBlank} from '@angular/core/src/facade/lang';
 import {TagInputItemComponent} from './tag-input-item.component';
 
 @Component({

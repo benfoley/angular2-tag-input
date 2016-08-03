@@ -1,4 +1,4 @@
-import { NgControl } from 'angular2/common';
+import { NgControl } from '@angular/common';
 export declare class TagInputComponent {
     private _ngControl;
     placeholder: string;

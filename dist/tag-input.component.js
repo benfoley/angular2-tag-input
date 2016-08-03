@@ -8,9 +8,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('angular2/core');
-var common_1 = require('angular2/common');
-var lang_1 = require('angular2/src/facade/lang');
+var core_1 = require('@angular/core');
+var common_1 = require('@angular/common');
+var lang_1 = require('@angular/core/src/facade/lang');
 var tag_input_item_component_1 = require('./tag-input-item.component');
 var TagInputComponent = (function () {
     function TagInputComponent(_ngControl) {
@@ -152,8 +152,9 @@ var TagInputComponent = (function () {
             styles: ["\n    :host {\n      display: block;\n      box-shadow: 0 1px #ccc;\n      padding: 5px 0;\n    }\n\n    :host.ng2-tag-input-focus {\n      box-shadow: 0 2px #0d8bff;\n    }\n\n    .ng2-tag-input-field {\n      display: inline-block;\n      width: auto;\n      box-shadow: none;\n      border: 0;\n    }\n  "],
             directives: [tag_input_item_component_1.TagInputItemComponent]
         }), 
-        __metadata('design:paramtypes', [common_1.NgControl])
+        __metadata('design:paramtypes', [(typeof (_a = typeof common_1.NgControl !== 'undefined' && common_1.NgControl) === 'function' && _a) || Object])
     ], TagInputComponent);
     return TagInputComponent;
+    var _a;
 }());
 exports.TagInputComponent = TagInputComponent;

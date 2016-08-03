@@ -10,8 +10,9 @@
     "outDir": "./dist"
   },
   "files": [
-    "./src/tag-input.component.ts",
-    "typings/main.d.ts"
+    "./src/tag-input-item.component.ts",
+    "./src/tag-input.component.ts"
+    // "typings/main.d.ts"
   ],
   "exclude": [
     "node_modules"
