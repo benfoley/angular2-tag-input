@@ -1,5 +1,6 @@
 # angular2-tag-input
-Tag input component for Angular 2
+Tag input component for Angular 2.
+Updated for Angular2 2.0.0-rc.3.
 
 ## Demo & Examples
 [View Plunker](http://plnkr.co/edit/uVGOm8yA0zA0OKhgWpvq?p=preview)
@@ -10,14 +11,21 @@ npm install angular2-tag-input --save
 ```
 
 ```
-// In one of your application components
+// In one of your application components, eg home.ts
+import {Component} from '@angular/core';
+import {NavController} from 'ionic-angular';
 import {TagInputComponent} from 'angular2-tag-input';
 
 @Component({
-    selector: 'your-component-selector',
-    directives: [TagInputComponent] // Add to directives
-    template: `<tag-input></tag-input>`
+    template: `<tag-input [(ngModel)]="items">tags</tag-input>`,
+    directives: [TagInputComponent]
 })
+export class HomePage {
+  items: any;
+  constructor(private navCtrl: NavController) {
+    this.items = ['Pizza', 'Pasta', 'Parmesan'];
+  }
+}
 ```
 
 ## API
